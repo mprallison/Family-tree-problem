@@ -7,6 +7,6 @@ The current relationships in scope are parents, grandparents, aunt/uncle, offspr
 I don't think adding more generations adds logical problems, and cousins become hard to define without a strict hierarchy of generations.
 As the challenge is set out as purely logical, we assume that no one ever dies, infertility does not exist, no one goes to prison, and siblings need share only one parent. 
 
-I imagine that there are mathematical approaches wherein axioms and formal proofs could actually define logical limits of what family relationships could be attriubuted to a single individual. It is de facto obvious that a given individual cannot be your son and father, nor can your sister be your brother. But I'm not sure if all relationship combinations could be derived formally...
+I imagine that there are mathematical approaches wherein axioms and formal proofs could actually define logical limits of what family relationships could be attributed to a single individual. It is de facto clear that a given individual cannot be your son and father, nor can your sister be your brother. But I'm not sure if all relationship combinations could be derived formally...
 
 My solution settles on a brute force approach with no axioms. Family trees are iteratively generated and assessed until the relationships are satisfied or we run out of iterations. 
